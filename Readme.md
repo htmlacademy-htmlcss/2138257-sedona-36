@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александра Попова](https://up.htmlacademy.ru/htmlcss/36/user/2138257).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Трифонов](https://htmlacademy.ru/profile/wrgraff).
 
 ---
 
