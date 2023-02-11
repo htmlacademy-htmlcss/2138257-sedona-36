@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="header-list">
+        <a class="navigation-logo" href="index.html">
+            <img class="page-header-logo" alt="Логотип сайта «Седона»" src="#">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-user">
+          <li class="user-item">
+            <a class="user-link" href="#">
+              <span class="visually-hidden">
+              Поиск
+              </span>
+            </a>
+          </li>
+          <li class="user-item">
+            <a class="user-link" href="#">
+              <span class="visually-hidden">
+              Избранное
+              </span>
+            </a>
+          </li>
+          <li>
+              <a class="button-hotel" href="#">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hotels-searching">
+        <h1 class="hotels-caption">Гостиницы Седоны</h1>
+        <a class="home-page" href="index.html">
+          <img class="home-page-icon" alt="Главная страница" src="#">
+        </a>
+        <a class="catalog-page" href="catalog.html">Гостиницы</a>
+        <p class="infrastructure-header">Инфраструктура:</p>
+          <ul class="infrastructure-list">
+            <li class="infrastructure-item">
+        <form class="infrastructure-checkbox" method="post" action="https://echo.htmlacademy.ru/">
+          <label>
+            Бассейн
+        <input class="checkbox-area" type="checkbox" placeholder="Бассейн" checked>
+          </label>
+        </form>
+            </li>
+            <li class="infrastructure-item">
+       <form class="infrastructure-checkbox" method="post" action="https://echo.htmlacademy.ru/">
+          <label>
+            Парковка
+        <input class="checkbox-area" type="checkbox" placeholder="Парковка" checked>
+          </label>
+        </form>
+            </li>
+            <li class="infrastructure-item">
+        <form class="infrastructure-checkbox" method="post" action="https://echo.htmlacademy.ru/">
+          <label>
+            Wi-Fi
+        <input class="checkbox-area" type="checkbox" placeholder="Wi-Fi">
+          </label>
+        </form>
+            </li>
+          </ul>
+          <p class="housing-header">Тип Жилья:</p>
+          <ul class="housing-list">
+            <li class="housing-item">
+            <form class="housing-radio" method="post" action="https://echo.htmlacademy.ru/">
+              <label>
+                Гостиница
+            <input class="radio-area" type="radio" value="Гостиница" checked>
+              </label>
+            </li>
+            <li class="housing-item">
+              <form class="housing-radio" method="post" action="https://echo.htmlacademy.ru/">
+                <label>
+                  Мотель
+              <input class="radio-area" type="radio" value="Мотель">
+                </label>
+              </li>
+              <li class="housing-item">
+                <form class="housing-radio" method="post" action="https://echo.htmlacademy.ru/">
+                  <label>
+                   Апартаменты
+                <input class="radio-area" type="radio" value="Апартаменты">
+                  </label>
+              </li>
+          </ul>
+          <p class="price-header">Стоимость, ₽:</p>
+          <form class="price-range" method="post" action="https://echo.htmlacademy.ru/">
+            <label>
+              от
+              <input class="range-input range-min" type="number" value="0" mane="min-price">
+            </label>
+          </form>
+          <form class="price-range" method="post" action="https://echo.htmlacademy.ru/">
+            <label>
+              до
+              <input class="range-input range-max" type="number" value="9000" mane="max-price">
+            </label>
+          </form>
+      </section>
+      <section class="mailing-section">
+        <h2 class="mailing-header">Подпишитесь на рассылку</h2>
+        <p class="mailing-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="mailing-button" method="post" action="https://echo.htmlacademy.ru/">
+         <label>
+           Ваш e-mail
+             <input class="field-area" type="email" placeholder="Ваш e-mail">
+         </label>
+             <button class="subscribe-button" type="submit">Подписаться</button>
+        </form>
+     </section>
+   </main>
+   <footer class="page-footer">
+     <section class="footer-social">
+       <h2 class="visually-hidden">Социальные сети</h2>
+       <ul class="footer-list">
+         <li class="footer-item">
+           <a class="footer-link" href="https://vk.com/htmlacademy">
+           <img class="footer-image" src="#" alt="Иконка Вконтакте">
+           </a>
+         </li>
+         <li class="footer-item">
+           <a class="footer-link" href="https://t.me/htmlacademy">
+           <img class="footer-image" src="#" alt="Иконка Телеграм">
+           </a>
+         </li>
+         <li class="footer-item">
+           <a class="footer-link" href="https://www.youtube.com/user/htmlacademyru">
+           <img class="footer-image" src="#" alt="Иконка Ютуб">
+           </a>
+         </li>
+       </ul>
+     </section>
+     <section class="footer-contacts">
+       <h2 class="visually-hidden">Контакты</h2>
+       <a class="contacts-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+       <a class="contacts-link" href="https://htmlacademy.ru/">
+         <img class="contacts-logo" src="#" alt="Логотип htmlacademy">
+       </a>
+     </section>
+   </footer>
+ </body>
+</html>
